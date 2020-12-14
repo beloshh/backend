@@ -1,0 +1,40 @@
+html {
+  background-color: rgb(247, 159, 159);
+}
+body {
+  box-sizing: border-box;
+  background-color: rgb(247, 159, 159);
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+#long {
+  padding: 50px 300px 50px 300px;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .columns {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #long {
+    padding: 50px 20px 50px 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .columns {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #long {
+    padding: 50px 20px 50px 20px;
+  }
+}
